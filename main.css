@@ -3,12 +3,24 @@
     padding: 0;
     box-sizing: border-box;
     font-family: sans-serif;
+    background-color: #fafafa;
+}
+
+.titulo {
+    color: #323b44;
+    text-align: center;
+    margin: auto;
+}
+
+.instrucoes {
+    text-align: center;
 }
 
 .container {
     margin: 80px auto;
     max-width: 640px;
     width: 100%;
+    padding-top: 200px;
 }
 
 form {
@@ -59,4 +71,9 @@ input.error {
     color:red;
     border-color: red;
     outline-color: red;
+}
+
+.creditos {
+    text-align: center;
+    font-size: 12px;
 }

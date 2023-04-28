@@ -8,14 +8,19 @@ form.addEventListener('submit', function(e) {
     e.preventDefault();
 
     if (numeroa.value >= numerob.value) {
-        alert("sim");
+        alert(`Você falhou! O número A (${numeroa.value}) é menor que o número B (${numerob.value})`)
+
         const containerMensagemSucesso = document.querySelector('.success-message');
         document.querySelector('.success-message').innerHTML = mensagemSucesso;
         containerMensagemSucesso.style.display = "block";
     } else {
-        alert("O número ")
+        alert(`Excelente. o número B (${numerob.value}) é maior que o número A (${numeroa.value})`);
 
     }
+
+        
+    
+
 });
 
 
