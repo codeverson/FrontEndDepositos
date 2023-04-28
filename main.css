@@ -24,18 +24,17 @@ input, textarea, button {
 }
 
 button {
-    background-color: #2ecc71;
+    background-color: #323b44;
     border: none;
     text-transform: uppercase;
     color: #fff;
     font-weight: bold;
     font-size: 18px;
-    font-style: italic;
     cursor: pointer;
 }
 
 button:hover {
-    background-color: #27ae60;
+    background-color: #000000;
 }
 
 .success-message {
