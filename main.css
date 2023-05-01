@@ -50,11 +50,13 @@ button:hover {
 }
 
 .success-message {
-
- background-color: #27ae60;
- padding: 16px;
- color: #ffff;
- display: none;
+    text-align: center;
+    font-size: 12px;
+    padding: 8px;
+    background-color: rgb(66, 124, 28);
+    color: #fff;
+    margin-bottom: 8px;
+    display: none;
 }
 
 .error-message {
@@ -64,6 +66,18 @@ button:hover {
     color: #fff;
     margin-bottom: 8px;
     display: none;
+    text-align: center;
+
+}
+
+.equal-message {
+    font-size: 12px;
+    padding: 8px;
+    background-color: rgb(250, 141, 15);
+    color: #fff;
+    margin-bottom: 8px;
+    display: none;
+    text-align: center;
 
 }
 
@@ -72,6 +86,8 @@ input.error {
     border-color: red;
     outline-color: red;
 }
+
+
 
 .creditos {
     text-align: center;
